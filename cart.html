@@ -34,6 +34,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html">Logout</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -42,8 +45,8 @@
     <section class="cart">
         <div class="container">
             <div class="title">ITEMS</div>
+                    <button id="scrollbottom" class="btn btn-primary" type="button" onClick="document.getElementById('print').scrollIntoView();"><i class="fa fa-arrow-down"></i></button>
             <div class="row">
-
                 <div class="col-xs-4 col-sm-6 col-md-6 col-lg-4 profile shop-item text-center">
                     <div data-aos="zoom-in">
                     <img class="shop-item-image img-responsive" src="images/item.jpg"onError="this.onerror=null;this.src='images/noimage.jpg';">
@@ -187,7 +190,7 @@
             <span class="cart-total-price">Rs 0</span>
         </div>
     </div>
-        <button id="print" class="btn btn-primary" type="button"onclick="window.print()" >PRINT INVOICE</button>
+        <button id="print" class="btn btn-primary" type="button"onclick="window.print();" >PRINT INVOICE</button>
         <button class="btn btn-success btn-purchase" type="button">BUY</button>
     </section>
     <!-- Footer -->
