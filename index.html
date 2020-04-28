@@ -14,21 +14,26 @@
     <link href="css/cart.css" rel="stylesheet">
     <script src="./js/script.js" async></script>
 </head>
-<div class="login-form">
-    <div class="container-login">
-        <form method="post" action="process.php">
-            <div id="div_login">
-                <h1>LOGIN</h1>
-                <div>
-                    <input type="text" class="textbox" id="user" name="user" placeholder="Username" />
+
+<body>
+    <div class="login-form">
+        <div class="container-login">
+            <form method="post" action="process.php">
+                <div id="div_login">
+                    <h1>LOGIN</h1>
+                    <div>
+                        <input type="text" class="textbox" id="user" name="user" placeholder="Username" autocapitalize="none" />
+                    </div>
+                    <div>
+                        <input type="password" class="textbox" id="pass" name="pass" placeholder="Password" autocapitalize="none" />
+                    </div>
+                    <div>
+                        <input type="submit" value="Login" name="but_submit" id="btn" />
+                    </div>
                 </div>
-                <div>
-                    <input type="password" class="textbox" id="pass" name="pass" placeholder="Password"/>
-                </div>
-                <div>
-                    <input type="submit" value="Login" name="but_submit" id="btn" />
-                </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
-</div>
+</body>
+
+</html>
