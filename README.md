@@ -29,4 +29,3 @@ Overall this assignment gave me an opportunity to learn a lot:<br>
 I created a login page which runs on PHP and MySQL.<br>
 Hosted the site with the backend on 000webhost.<br>
 Now that I found it difficult to save the cart items in MySQL. I had the idea to Print the same or to let the user save it locally as a PDF. I did the same through CSS.<br><br>
-I tried to cut short the time and deliver the assignment at the earliest.<br>
