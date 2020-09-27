@@ -6,6 +6,7 @@ The website starts with a Login Page:
 | :------: | :----------: |
 | Username |   testuser   |
 | Password | testuserpass |
+
 enter the details as given, hit login and voila! We are in our shopping mart.  
 Now in EMART we can 'Add to Cart' all the items that we require. Adding the same item multiple times is not allowed.  
 Now we can hit the down arrow to go to the bottom of our page and check the Cart. The Cart shows the item with the images, their price and also the quantity.  
