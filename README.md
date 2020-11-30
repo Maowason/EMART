@@ -4,7 +4,7 @@
 The website starts with a Login Page:  
 |  Field   |    Input     |
 | :------: | :----------: |
-| Username |    test      |
+| Username |  testuser    |
 | Password | testuserpass |
 
 enter the details as given, hit login and voila! We are in our shopping mart.  
